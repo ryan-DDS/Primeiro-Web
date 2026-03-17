@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'sparkling';
+    src: url(fonts/Sparkling\ Valentine.ttf);
+    font-display: swap;
+    font-style: normal;
+    font-stretch: 100% 130%;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+    font-display: swap;
+    font-style: normal;
+    font-stretch: 100% 130%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+
+header{
+    background: aliceblue;
+    padding: 45px;
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+.logo{
+    font-size: 50px;
+    font-family: 'sparkling';
+    color: rgba(224, 105, 35, 0.671);
+    cursor: pointer;
+}
+
+.engrenagem-logo{
+    width: 80px;
+    align-items: center;
+    justify-self: center;
+    margin: auto;
+}
+
+nav{
+    margin-left: auto;
+}
+
+.header-items{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    width: 100%;
+}
+
+.img-instagram{
+    width: 25px;
+}
+
+.img-tiktok{
+    width: 25px;
+}
+
+nav ul{
+    align-items: center;
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    gap: 1.7rem;
+}
+
+nav a{
+    color: rgba(224, 105, 35, 0.671);
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+nav a:hover{
+    border-bottom: 2px solid rgba(224, 105, 35, 0.671);
+    transform: translateY(-2px);
+}
+
+nav li{
+    transition: transform 0.3s ease;
+}
+
+nav li:hover{
+    transform: translateY(-2px);
+}
+
+.linha-colorida{
+    background: linear-gradient(to right, rgb(172, 76, 52), rgba(224, 105, 35, 0.671));
+    padding: 1px;
+}
+
+/* MAIN */
+
+.hero{
+    background: rgba(202, 110, 56, 0.671);
+    padding: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.img-grazy{
+    width: 1000%;
+    max-width: 350px;
+    border-radius: 3%;
+}
+
+.hero {
+    color: white;
+    display: flex;
+}
+
+.hero-text button{
+    border: none;
+    border-radius: 17px;
+    padding: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.hero-text button a{
+    color: rgba(224, 105, 35, 0.671);
+    text-decoration: none; 
+}
+
+.hero-text button:hover{
+    box-shadow: 3px 3px rgba(224, 105, 35, 0.671);
+    transform: translateY(-2px);
+}
+
+.sobre{
+    padding: 20px;
+    text-align: center;
+    background: aliceblue;
+    color: rgb(172, 76, 52);
+}
+
+.sobre-titulo{
+    margin-bottom: 7px;
+}
+
+.informacoes{
+    align-self: center;
+}
+
+.habilidade{
+    background: aliceblue;
+    padding: 40px;
+}
+
+.conteiner-titulo{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(172, 76, 52);
+}
+
+.grid-linguagens{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card{
+    color: rgba(224, 105, 35, 0.671);
+    background-color: rgb(230, 212, 212);
+    border: none;
+    padding: 30px;
+    border-radius: 8px;
+    list-style: none;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-2px);
+    box-shadow: 6px 6px 0 rgb(209, 150, 94);
+}
+
+.card button{
+    border: none;
+    background: rgba(231, 171, 136, 0.671);
+    padding: 7px;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.card button a{
+    color: rgba(224, 105, 35, 0.671);
+    text-decoration: none;
+}
+
+.projeto{
+    background: rgba(231, 171, 136, 0.671);
+    color: rgba(224, 105, 35, 0.671);
+    padding: 20px;
+}
+.projeto-titulo{
+    padding: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(172, 76, 52)
+}
+
+.nome-projeto{
+    color: rgb(172, 76, 52);
+}
+
+.projeto-card{
+    background: rgba(224, 105, 35, 0.671);
+    padding: 20px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.projeto-card article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.imagem-projeto{
+    width: 60%;
+    max-width: 350px;
+    border-radius: 3%;
+}
+
+.contato{
+    background: aliceblue;
+    padding: 20px;
+}
+
+.conteiner h3{
+    text-align: center;
+    color: rgb(172, 76, 52);
+}
+
+.conteiner button{
+    background: rgba(231, 171, 136, 0.671);
+    border: none;
+    padding: 7px;
+    border-radius: 50px;
+}
+
+.whatsapp-logo{
+    width: 40%;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: rgba(202, 110, 56, 0.671);
+    color: white;
+    text-align: center;
+    padding: 17px;
+}
